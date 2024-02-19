@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-14T16:41:28 IST" name="Suite" finished-at="2024-02-14T16:46:03 IST" duration-ms="275743">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001_UserVerification.Verify_UserVerification()[pri:1, instance:TestCases.TC_001_UserVerification@37d4349f]" name="Verify_UserVerification" class="TestCases.TC_001_UserVerification"/>
+        <method signature="TC_002_ClickDropdown.Verify_Click_Dropdown()[pri:2, instance:TestCases.TC_002_ClickDropdown@17497425]" name="Verify_Click_Dropdown" class="TestCases.TC_002_ClickDropdown"/>
+        <method signature="TC_002_ClickDropdown.getSubHeader()[pri:2, instance:TestCases.TC_002_ClickDropdown@17497425]" name="getSubHeader" class="TestCases.TC_002_ClickDropdown"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_003_EthicsandCompliance.Verify_Ethicsandcompliance()[pri:3, instance:TestCases.TC_003_EthicsandCompliance@f0da945]" name="Verify_Ethicsandcompliance" class="TestCases.TC_003_EthicsandCompliance"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_UserVerification.Verify_UserVerification()[pri:1, instance:TestCases.TC_001_UserVerification@37d4349f]" name="Verify_UserVerification" class="TestCases.TC_001_UserVerification"/>
+        <method signature="TC_002_ClickDropdown.Verify_Click_Dropdown()[pri:2, instance:TestCases.TC_002_ClickDropdown@17497425]" name="Verify_Click_Dropdown" class="TestCases.TC_002_ClickDropdown"/>
+        <method signature="TC_002_ClickDropdown.getSubHeader()[pri:2, instance:TestCases.TC_002_ClickDropdown@17497425]" name="getSubHeader" class="TestCases.TC_002_ClickDropdown"/>
+        <method signature="TC_003_EthicsandCompliance.Verify_Ethicsandcompliance()[pri:3, instance:TestCases.TC_003_EthicsandCompliance@f0da945]" name="Verify_Ethicsandcompliance" class="TestCases.TC_003_EthicsandCompliance"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-02-14T16:41:28 IST" name="Test" finished-at="2024-02-14T16:46:03 IST" duration-ms="275743">
+      <class name="TestCases.TC_001_UserVerification">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.TC_001_UserVerification@37d4349f]" started-at="2024-02-14T16:41:28 IST" name="setup" finished-at="2024-02-14T16:41:37 IST" duration-ms="8574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_UserVerification()[pri:1, instance:TestCases.TC_001_UserVerification@37d4349f]" started-at="2024-02-14T16:41:37 IST" name="Verify_UserVerification" finished-at="2024-02-14T16:42:11 IST" duration-ms="34105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_UserVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_001_UserVerification@37d4349f]" started-at="2024-02-14T16:42:11 IST" name="tearDown" finished-at="2024-02-14T16:42:12 IST" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_001_UserVerification -->
+      <class name="TestCases.TC_003_EthicsandCompliance">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.TC_003_EthicsandCompliance@f0da945]" started-at="2024-02-14T16:45:52 IST" name="setup" finished-at="2024-02-14T16:45:59 IST" duration-ms="7251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Ethicsandcompliance()[pri:3, instance:TestCases.TC_003_EthicsandCompliance@f0da945]" started-at="2024-02-14T16:45:59 IST" name="Verify_Ethicsandcompliance" finished-at="2024-02-14T16:46:02 IST" duration-ms="2826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Ethicsandcompliance -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_003_EthicsandCompliance@f0da945]" started-at="2024-02-14T16:46:02 IST" name="tearDown" finished-at="2024-02-14T16:46:03 IST" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_003_EthicsandCompliance -->
+      <class name="TestCases.TC_002_ClickDropdown">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.TC_002_ClickDropdown@17497425]" started-at="2024-02-14T16:42:12 IST" name="setup" finished-at="2024-02-14T16:42:18 IST" duration-ms="5800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Click_Dropdown()[pri:2, instance:TestCases.TC_002_ClickDropdown@17497425]" started-at="2024-02-14T16:42:18 IST" name="Verify_Click_Dropdown" finished-at="2024-02-14T16:42:18 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Click_Dropdown -->
+        <test-method signature="getSubHeader()[pri:2, instance:TestCases.TC_002_ClickDropdown@17497425]" started-at="2024-02-14T16:42:18 IST" name="getSubHeader" finished-at="2024-02-14T16:45:51 IST" duration-ms="213083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSubHeader -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_002_ClickDropdown@17497425]" started-at="2024-02-14T16:45:51 IST" name="tearDown" finished-at="2024-02-14T16:45:52 IST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_002_ClickDropdown -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
